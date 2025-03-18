@@ -106,6 +106,7 @@ nav ul li a.logo {
     background: linear-gradient(45deg, #2c3e50, rgb(144, 195, 200));
     background-clip: text;
     background-clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 0;
@@ -622,19 +623,19 @@ footer .about-company {
         background: rgb(144, 195, 200);
     }
 
-    .nav-toggle:checked ~ .nav-links {
+    .nav-toggle:checked~.nav-links {
         right: 0;
     }
 
-    .nav-toggle:checked ~ .burger span:nth-child(1) {
+    .nav-toggle:checked~.burger span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
 
-    .nav-toggle:checked ~ .burger span:nth-child(2) {
+    .nav-toggle:checked~.burger span:nth-child(2) {
         opacity: 0;
     }
 
-    .nav-toggle:checked ~ .burger span:nth-child(3) {
+    .nav-toggle:checked~.burger span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
     }
 
